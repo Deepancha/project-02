@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Link to Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Link to Custom CSS -->
+  <link rel="stylesheet" href="boot1.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="boot.png" type="image/x-icon">
+</head>
+
+
+<body>
+
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#welcome">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#welcome">Welcome</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#soft-skills">Soft skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#technical-skills">Technical Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Welcome Section (Landing Page) -->
+  <section id="welcome" class="section-full" style="background-color: #444b51; color: rgba(245, 245, 245, 0.386);">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Column: Image -->
+        <div class="col-md-6">
+          <img src="shirt.jpg" alt="Your Image" class="img-fluid rounded-circle mb-4" style="width: 360px; height: 370px;">
+        </div>
+        <!-- Right Column: Text -->
+        <div class="col-md-6 text-center text-md-start">
+          <h4>Welcome </h4><!-- Larger text -->
+          <p class="lead">
+            <b>Hello! I'm Deepanchakravarthi.s, a passionate .NET Developer</b>
+            <br><br>
+            Here, you'll find a collection of my work, including projects that demonstrate my abilities in coding, problem-solving, and design. Feel free to explore my portfolio, and don't hesitate to reach out if you'd like to connect!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+
+  <!-- Education Section -->
+  <section id="education" class="section-full">
+    <div class="container w-100 p-5 text-center mt-5 bg-light bg-gradient" id="about">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="mt-5">Carrier Objective</h3>
+          <p class="mt-5">
+            I am a passionate and motivated developer with a solid foundation in programming languages such as HTML, CSS, JavaScript, and Python. I am seeking an entry-level position where I can apply my technical skills, problem-solving abilities, and creativity to contribute to exciting projects.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <h3 class="mt-5">Education</h3>
+        <div class="row mt-5">
+          <div class="col">
+            <h4 class="">UG</h4>
+            <p class="mt-4">Completed my Bsc(Information Systems) in Kongu Engineering College with 8.21 CGpa</p>
+          </div>
+
+          <div class="col">
+            <h4>HSC</h4>
+            <p class="mt-4">Completed my Hsc in navarasam Matric Higher Secondary School with 60%</p>
+          </div>
+
+          <div class="col">
+            <h4>SSLC</h4>
+            <p class="mt-4">Completed my Hsc in navarasam Matric Higher Secondary School with 74.8</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section-full bg-light">
+    <div class="container">
+      <h2 class="mb-4">Projects</h2>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="concert.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text card-small-text">A web application that allows users to create and manage tasks. Built with HTML, CSS, and JavaScript.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="project.png" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text card-small-text">A portfolio website that showcases various web development projects. Built with custom CSS.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="furit.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text card-small-text">A portfolio website that showcases various web development projects. Built with custom CSS.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project 4 (New Project) -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="pro.png" class="card-img-top" alt="Project 4">
+            <div class="card-body">
+              <h5 class="card-title">Project 4</h5>
+              <p class="card-text card-small-text">A weather app that fetches real-time data from an API. Built with JavaScript and OpenWeather API.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project 5 (New Project) -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="pro1.png" class="card-img-top" alt="Project 5">
+            <div class="card-body">
+              <h5 class="card-title">Project 5</h5>
+              <p class="card-text card-small-text">A social media dashboard that allows users to post, like, and comment. Built with React and Firebase.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project 6 (New Project) -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="project1.png" class="card-img-top" alt="Project 6">
+            <div class="card-body">
+              <h5 class="card-title">Project 6</h5>
+              <p class="card-text card-small-text">An e-commerce site with user authentication, shopping cart, and payment gateway integration. Built with Node.js and MongoDB.</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Soft Skills Section -->
+  <section id="soft-skills" class="section-full bg-light">
+    <div class="container">
+      <h2 class="mb-4 text-center">Soft Skills</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Communication</h5>
+              <p class="card-text">Strong verbal and written communication skills, capable of explaining complex technical topics to non-technical audiences.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Problem Solving</h5>
+              <p class="card-text">Adept at identifying problems and coming up with creative solutions, even in high-pressure environments.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Teamwork</h5>
+              <p class="card-text">Excellent team player with a collaborative approach to work, helping others to achieve common goals.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Time Management</h5>
+              <p class="card-text">Effective in managing time and deadlines, ensuring all tasks are completed on time and to a high standard.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Adaptability</h5>
+              <p class="card-text">Comfortable working in fast-paced environments, and adaptable to new tools, technologies, and methodologies.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Leadership</h5>
+              <p class="card-text">Proven ability to lead projects and teams, motivating others and fostering an environment of collaboration.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="technical-skills" class="section-full bg-light">
+    <div class="container">
+      <h2 class="mb-4 text-center">Technical Skills</h2>
+      <div class="row">
+        <!-- Skill 1 -->
+        <div class="col-md-3">
+          <img src="html.png" alt="HTML" class="img-fluid rounded-squar mb-4" style="width: 180px; height: 140px;">
+          <h5 class="text-center">HTML</h5>
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="col-md-3">
+          <img src="css.png" alt="CSS" class="img-fluid rounded-squar mb-4" style="width: 180px; height: 140px;">
+          <h5 class="text-center">CSS</h5>
+        </div>
+
+        <!-- Skill 3 -->
+        <div class="col-md-3">
+          <img src="js.png" alt="JavaScript" class="img-fluid rounded-squar mb-4" style="width: 180px; height: 140px;">
+          <h5 class="text-center">JavaScript</h5>
+        </div>
+
+        <!-- Skill 4 -->
+        <div class="col-md-3">
+          <img src="csharp.png" alt="C#" class="img-fluid rounded-squar mb-4" style="width: 180px; height: 140px;">
+          <h5 class="text-center">C#</h5>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <!-- Skill 5 -->
+        <div class="col-md-3">
+          <img src="sql.png" alt="SQL" class="img-fluid rounded-squar mb-4" style="width: 180px; height: 140px;">
+          <h5 class="text-center">SQL</h5>
+        </div>
+
+        <!-- Skill 6 -->
+        <div class="col-md-3">
+          <img src="asp.jpg" alt="ASP.NET" class="img-fluid rounded-squar mb-4" style="width: 180px; height: 140px;">
+          <h5 class="text-center">ASP.NET</h5>
+        </div>
+
+        <!-- Skill 7 -->
+        <div class="col-md-3">
+          <img src="python.jpg" alt="Python" class="img-fluid rounded-squar mb-4" style="width: 180px; height: 140px;">
+          <h5 class="text-center">Python</h5>
+        </div>
+
+        <!-- Skill 8 -->
+        <div class="col-md-3">
+          <img src="boot.png" alt="Bootstrap" class="img-fluid rounded-squar mb-4" style="width: 180px; height: 140px;">
+          <h5 class="text-center">Bootstrap</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-full">
+    <div class="container">
+      <h2 class="text-center mb-5">Contact Me</h2>
+      <div class="row">
+        <div class="col-5">
+          <img src="smartphone-call.png" class="float-end"  style="width: 30px;height: 30px;">
+        </div>
+        <div class="col-3">
+          <p><strong>Phone:</strong>(91+)6382426090</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-5">
+          <img src="mail.png"  class="float-end"  style="width: 30px;height: 30px;">
+        </div>
+        <div class="col-3">
+          <p><strong>Email:</strong><a href="mailto:your.email@example.com">deepanjini75@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-5">
+          <img src="world-wide-web.png"  class="float-end"  style="width: 30px;height: 30px;">
+        </div>
+        <div class="col-3">
+          <p><strong>Website:</strong><a href="https://www.yourwebsite.com" target="_blank">www.deepan.com</a></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-5">
+          <img src="house.png"  class="float-end"  style="width: 30px;height: 30px;">
+        </div>
+        <div class="col-3">
+          <p><strong>Address:</strong>53,Thiru valluvar nagar,arachalur,erode</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS and Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

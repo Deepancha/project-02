@@ -1,0 +1,61 @@
+/* Make each section cover full page */
+.section-full {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-nav .nav-link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  font-size: larger;
+  text-align: center;
+
+}
+
+/* Custom padding for sections to avoid overlap with fixed navbar */
+section {
+  padding-top: 10px;
+}
+
+
+
+#projects .card {
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  height: 200px;
+ object-fit: auto;
+
+}
+.card-small-text {
+  font-size: 0.875rem; /* Smaller font size */
+}
+.text-center {
+  margin-top: 1px;
+}
+/* Add this to your CSS to make images spin on touch/click */
+/* Add this to your CSS to make images spin on hover */
+.spin-image:hover {
+  transform: rotate(360deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+
+.card{
+  height: 200px;
+}
